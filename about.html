@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <!--Include Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!--Include Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Creating NAVBAR using Bootstrap-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid ms-4 me-4 pt-8 pb-8">
+        <a class="navbar-brand" href="index.html">Nataliia Zabazhanova</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-------------------------------------------------------------------------------------------->
+    <!--Titles-->
+    <h1 class="text-center title__fontSizeForH1 title__margin">About me</h1>
+    <h3 class="text-center opacity-75 title__fontSizeForH3">
+      Front-end developer from Dumfries, Scotland
+    </h3>
+    <p class="text-center mt-4 title__fontSizeForP">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+      explicabo modi pariatur fuga rem, libero totam eaque laborum ut quibusdam
+      blanditiis tempora praesentium consequuntur! Illum porro repellendus
+      veritatis saepe!
+    </p>
+    <!-------------------------------------------------------------------------------------------->
+    <!--Projects-->
+    <div class="container">
+      <div class="container">
+        <div class="row mt-5 align-items-center">
+          <div class="col-sm-4 mb-3">
+            <img
+              src="img/3.png"
+              alt=""
+              class="img-fluid rounded shadow-sm p-2 border"
+            />
+          </div>
+          <div class="col-sm-4 mb-3">
+            <img
+              src="img/1.png"
+              alt=""
+              class="img-fluid rounded shadow-sm p-2 border"
+            />
+          </div>
+          <div class="col-sm-4 mb-3">
+            <img
+              src="img/2.png"
+              alt=""
+              class="img-fluid rounded shadow-sm p-2 border"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------------------------------------------------------------->
+    <!--Projects-->
+    <div class="container">
+      <h2 class="text-center m-5 title__fontSizeForH2">📮 Contact me</h2>
+      <a
+        href="mailto:nataliia.voroshylova@gmail.com"
+        class="d-block text-center fs-4"
+        id="contact"
+        >nataliia.voroshylova@gmail.com</a
+      >
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+/*null style*/
+/*----------------------------------------------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+/*----------------------------------------------------------------------------*/
+.container {
+  max-width: 1080px;
+}
+/*margins and paddings*/
+.title__margin {
+  margin: 90px 0px 0px 0px;
+}
+/*******************************************************************************/
+/*FONT SIZE*/
+.title__fontSizeForH1 {
+  font-size: 96px;
+}
+.title__fontSizeForH2 {
+  font-size: 48px;
+}
+.title__fontSizeForH3 {
+  font-size: 24px;
+}
+.title__fontSizeForP {
+  font-size: 18px;
+}
+/****************************************************************************/
+/*Custom buttons*/
+.btn__contact,
+.btn__about {
+  color: #fff;
+  background-color: #6c63ff;
+  margin: 30px;
+  padding: 20px 15px;
+  font-size: 20px;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.btn__about,
+.btn__about:hover {
+  background-color: #fff;
+  color: #6c63ff;
+  box-shadow: none;
+}
+.btn__contact:hover {
+  color: blue;
+  background-color: #6c63ff;
+}
+/****************************************************************************/
+/*Images*/
+.img__settings {
+  max-width: 95%;
+  margin: 30% auto;
+}
+/*.img__width {
+  max-width: 300px;
+}*/
